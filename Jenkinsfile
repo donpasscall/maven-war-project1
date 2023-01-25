@@ -4,7 +4,8 @@ stages {
 
   stage('git-checkout') {
   steps {
-git 'https://github.com/vijay2181/maven-wa...
+git 'https://github.com/donpasscall/maven-war-project1.git'
+}
            }
 }
   
