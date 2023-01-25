@@ -1,18 +1,10 @@
 pipeline {
   agent none
-
 stages {
-
-stage('build') {
+stage('git-checkout') {
   steps {
-         echo "building----"
-             }
-            }
-
-stage('test') {
-  steps {
-         echo "testing-----"
-             }
-                     }
+git 'https://github.com/donpasscall/maven-war-project1.git'
+}
+}
 }
 }
