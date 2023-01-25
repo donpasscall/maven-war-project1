@@ -23,7 +23,7 @@ git 'https://github.com/donpasscall/maven-war-project1.git'
    when {environment name: 'BUILD', value: 'yes'}
    steps { 
                echo "Building artifacts ..."
-               sh "mvn clean package "
+               sh "mvn clean package"
                }
 
              }
